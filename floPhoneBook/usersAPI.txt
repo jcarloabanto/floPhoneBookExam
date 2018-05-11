@@ -1,0 +1,50 @@
+[
+{
+"name" : "Karmel Echano",
+"birthdate" : "November 6, 1994",
+"age" : 23,
+"sex" : "Female",
+"status" : "Married",
+"contactdetails" : {
+"email": "joanalee@sample.com",
+"address" : "Boni",
+"mobileNumber" : "23465"
+},
+"friends" : {
+"name" : "Harold Reyes",
+"birthdate" : "May 23, 1989",
+"age" : 20,
+"sex" : "Male",
+"status" : "Married",
+"contactdetails" : {
+"email": "haroldreyes@sample.com",
+"address" : "Laguna",
+"mobileNumber" : "099822"
+}
+}
+},
+{
+"name" : "James Abanto",
+"birthdate" : "November 15, 1994",
+"age" : 23,
+"sex" : "Female",
+"status" : "Married",
+"contactdetails" : {
+"email": "jamesabanto@sample.com",
+"address" : "Antipolo",
+"mobileNumber" : "876655"
+},
+"friends" : {
+"name" : "Janeo Encontro",
+"birthdate" : "August 23, 1994",
+"age" : 20,
+"sex" : "Male",
+"status" : "Married",
+"contactdetails" : {
+"email": "janeoencontro@sample.com",
+"address" : "Commonwealth",
+"mobileNumber" : "87000"
+}
+}
+}
+]
