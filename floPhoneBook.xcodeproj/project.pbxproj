@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D047F6320A57A99003040F9 /* usersAPI.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0D047F6220A57A98003040F9 /* usersAPI.txt */; };
 		0DC3EF7820A509180021BDA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3EF7720A509180021BDA9 /* AppDelegate.swift */; };
 		0DC3EF7A20A509180021BDA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3EF7920A509180021BDA9 /* ViewController.swift */; };
 		0DC3EF7D20A509180021BDA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC3EF7B20A509180021BDA9 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D047F6220A57A98003040F9 /* usersAPI.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = usersAPI.txt; path = floPhoneBook/usersAPI.txt; sourceTree = SOURCE_ROOT; };
 		0DC3EF7420A509180021BDA9 /* floPhoneBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = floPhoneBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC3EF7720A509180021BDA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DC3EF7920A509180021BDA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		0DC3EF9420A5585B0021BDA9 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0D047F6220A57A98003040F9 /* usersAPI.txt */,
 				0DC3EF9220A558540021BDA9 /* SecondViewController.swift */,
 				0DC3EF7920A509180021BDA9 /* ViewController.swift */,
 			);
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DC3EF8520A509190021BDA9 /* LaunchScreen.storyboard in Resources */,
+				0D047F6320A57A99003040F9 /* usersAPI.txt in Resources */,
 				0DC3EF9120A524EF0021BDA9 /* usersAPI.txt in Resources */,
 				0DC3EF8220A509190021BDA9 /* Assets.xcassets in Resources */,
 				0DC3EF7D20A509180021BDA9 /* Main.storyboard in Resources */,
