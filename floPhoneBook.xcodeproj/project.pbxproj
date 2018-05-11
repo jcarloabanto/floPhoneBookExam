@@ -13,6 +13,10 @@
 		0DC3EF8020A509180021BDA9 /* floPhoneBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3EF7E20A509180021BDA9 /* floPhoneBook.xcdatamodeld */; };
 		0DC3EF8220A509190021BDA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC3EF8120A509190021BDA9 /* Assets.xcassets */; };
 		0DC3EF8520A509190021BDA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC3EF8320A509190021BDA9 /* LaunchScreen.storyboard */; };
+		0DC3EF8D20A50A4B0021BDA9 /* PhoneBookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3EF8C20A50A4B0021BDA9 /* PhoneBookTableViewCell.swift */; };
+		0DC3EF9120A524EF0021BDA9 /* usersAPI.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0DC3EF9020A524EF0021BDA9 /* usersAPI.txt */; };
+		0DC3EF9320A558540021BDA9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3EF9220A558540021BDA9 /* SecondViewController.swift */; };
+		0DC3EF9920A5614F0021BDA9 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC3EF9820A5614F0021BDA9 /* SecondTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		0DC3EF8120A509190021BDA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DC3EF8420A509190021BDA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DC3EF8620A509190021BDA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC3EF8C20A50A4B0021BDA9 /* PhoneBookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneBookTableViewCell.swift; sourceTree = "<group>"; };
+		0DC3EF9020A524EF0021BDA9 /* usersAPI.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = usersAPI.txt; path = "../../JSON-Parser/JSON Parser/usersAPI.txt"; sourceTree = "<group>"; };
+		0DC3EF9220A558540021BDA9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0DC3EF9820A5614F0021BDA9 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +64,10 @@
 		0DC3EF7620A509180021BDA9 /* floPhoneBook */ = {
 			isa = PBXGroup;
 			children = (
+				0DC3EF9520A558700021BDA9 /* Table Cell */,
+				0DC3EF9420A5585B0021BDA9 /* ViewControllers */,
+				0DC3EF9020A524EF0021BDA9 /* usersAPI.txt */,
 				0DC3EF7720A509180021BDA9 /* AppDelegate.swift */,
-				0DC3EF7920A509180021BDA9 /* ViewController.swift */,
 				0DC3EF7B20A509180021BDA9 /* Main.storyboard */,
 				0DC3EF8120A509190021BDA9 /* Assets.xcassets */,
 				0DC3EF8320A509190021BDA9 /* LaunchScreen.storyboard */,
@@ -65,6 +75,24 @@
 				0DC3EF7E20A509180021BDA9 /* floPhoneBook.xcdatamodeld */,
 			);
 			path = floPhoneBook;
+			sourceTree = "<group>";
+		};
+		0DC3EF9420A5585B0021BDA9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DC3EF9220A558540021BDA9 /* SecondViewController.swift */,
+				0DC3EF7920A509180021BDA9 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0DC3EF9520A558700021BDA9 /* Table Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0DC3EF8C20A50A4B0021BDA9 /* PhoneBookTableViewCell.swift */,
+				0DC3EF9820A5614F0021BDA9 /* SecondTableViewCell.swift */,
+			);
+			path = "Table Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DC3EF8520A509190021BDA9 /* LaunchScreen.storyboard in Resources */,
+				0DC3EF9120A524EF0021BDA9 /* usersAPI.txt in Resources */,
 				0DC3EF8220A509190021BDA9 /* Assets.xcassets in Resources */,
 				0DC3EF7D20A509180021BDA9 /* Main.storyboard in Resources */,
 			);
@@ -141,6 +170,9 @@
 				0DC3EF8020A509180021BDA9 /* floPhoneBook.xcdatamodeld in Sources */,
 				0DC3EF7A20A509180021BDA9 /* ViewController.swift in Sources */,
 				0DC3EF7820A509180021BDA9 /* AppDelegate.swift in Sources */,
+				0DC3EF9320A558540021BDA9 /* SecondViewController.swift in Sources */,
+				0DC3EF8D20A50A4B0021BDA9 /* PhoneBookTableViewCell.swift in Sources */,
+				0DC3EF9920A5614F0021BDA9 /* SecondTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
